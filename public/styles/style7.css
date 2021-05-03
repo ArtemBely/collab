@@ -1,0 +1,215 @@
+.checkbox_status_title, .checkbox_status_title2{
+	margin-top: 15px;
+  	grid-column:2/3;
+	grid-row:4/5;
+  	font-weight: 500;
+	font-size: 19px;
+	line-height: 27px;
+	color: #000000;
+  	font-family: 'Montserrat-SemiBold';
+}
+.checkbox_status_subtitle, .checkbox_status_subtitle2{
+	grid-column:2/3;
+	grid-row:4/5;
+	margin-top: 15px;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 25px;
+	color: #2C2C2C;
+}
+.checkbox_input, .time_input{
+	appearance: none;
+	-webkit-appearance: none;
+	position: absolute;
+}
+.lay_checkbox1, .lay_checkbox6{
+	position: relative;
+	margin-top: 15px;
+	grid-column:2/3;
+	grid-row:4/5;
+}
+.lay_checkbox2, .lay_checkbox7{
+	position: relative;
+	margin-top: 15px;
+	grid-column:2/3;
+	grid-row:4/5;
+}
+.lay_checkbox3, .lay_checkbox8{
+	position: relative;
+	margin-top: 50px;
+	grid-column:2/3;
+	grid-row:4/5;
+}
+.lay_checkbox4, .lay_checkbox9{
+	position: relative;
+	margin-top: 50px;
+	grid-column:2/3;
+	grid-row:4/5;
+}
+.lay_checkbox5, .lay_checkbox10{
+	position: relative;
+	margin-top: 50px;
+	grid-column:2/3;
+	grid-row:4/5;
+}
+.checkbox_label, .time_label{
+	padding-left: 28px;
+  	font-weight: 400;
+	font-size: 17px;
+	line-height: 25px;
+	color: #2C2C2C;
+}
+.checkbox_label:before{
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	position: absolute;
+	top:4px;
+	left:0;
+	z-index: 1;
+}
+.checkbox_label:after{
+	content: "";
+	display: block;
+	height: 20px;
+	width: 20px;
+	background: url(../images/icon.svg) no-repeat;
+	background-size: 16px 16px;
+	position: absolute;
+	top:6px;
+	left:2px;
+	z-index: 2;
+	opacity: 0;
+}
+.checkbox_input:checked + .checkbox_label:before{
+	background-color:#478ECC;
+}
+.checkbox_input:checked + .checkbox_label:after{
+	opacity: 1;
+}
+.radio_time_title, .radio_time_title2{
+	margin-top: 15px;
+	grid-column:2/3;
+	grid-row:5/6;
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 27px;
+	color: #000000;
+	font-family: 'Montserrat-SemiBold';
+ }
+ .radio_time1, .radio_time4{
+	margin-top: 15px;
+	grid-column:2/3;
+	grid-row:5/6;
+	position: relative;
+ }
+ .radio_time2, .radio_time5{
+	margin-top: 15px;
+	grid-column:2/3;
+	grid-row:5/6;
+	position: relative;
+ }
+ .radio_time3, .radio_time6{
+	margin-top: 15px;
+	grid-column:2/3;
+	grid-row:5/6;
+	position: relative;
+ }
+ .time_label:before{
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #d8d8d8;
+	border-radius: 50%;
+	position: absolute;
+	top:4px;
+	left:0;
+	z-index: 1;
+ }
+ .time_label:after{
+	content: "";
+	display: block;
+	width: 13px;
+	height: 13px;
+	background-color: #478ECC;
+	border-radius: 50%;
+	position: absolute;
+	top:7.5px;
+	left:3.5px;
+	z-index:2;
+	opacity:0;
+ }
+ .time_input:checked +.time_label:after{
+	opacity: 1;
+ }
+ .amount_input4, .amount_input8{
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	margin-left: 10px;
+	border: none;
+	position: absolute;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 12px;
+	color: #000000;
+	font-family: 'Montserrat-SemiBold';
+	padding: 5px 10px;
+	width: 170px;
+	outline: none;
+ }
+ .amount_input3, .amount_input7{
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	border: none;
+	position: absolute;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 12px;
+	color: #000000;
+	font-family: 'Montserrat-SemiBold';
+	padding: 5px 10px;
+	width: 170px;
+	outline: none;
+	margin-top: 35px;
+	margin-left: -345px;
+ }
+ .amount_input2, .amount_input6{
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	border: none;
+	position: absolute;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 12px;
+	color: #000000;
+	font-family: 'Montserrat-SemiBold';
+	padding: 5px 10px;
+	width: 170px;
+	outline: none;
+	margin-top: 35px;
+	margin-left: -348px;
+ }
+ .amount_input1, .amount_input5{
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	border: none;
+	position: absolute;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 12px;
+	color: #000000;
+	font-family: 'Montserrat-SemiBold';
+	padding: 5px 10px;
+	width: 170px;
+	outline: none;
+	margin-top: 35px;
+	margin-left: -328px;
+ }
+
+
+
+
